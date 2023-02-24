@@ -1,0 +1,29 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/main.js --ext js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErnCha98/node-api.git"
+  },
+  "author": "Ernesto Chavarria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErnCha98/node-api/issues"
+  },
+  "homepage": "https://github.com/ErnCha98/node-api#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
